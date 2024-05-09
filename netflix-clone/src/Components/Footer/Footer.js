@@ -3,59 +3,66 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined'
 import InstgramIcon from '@mui/icons-material/Instagram'
 import YoutubeIcon from '@mui/icons-material/YouTube'
 import "./Footer.css";
+
 const Footer = () => {
+
   return (
-    <div className='footer_outer_container'>
-      <div className='footer_inner_container'>
-        <div className='footer_icons'>
-          <FacebookOutlinedIcon />
-          <InstgramIcon />
-          <YoutubeIcon />
-
+    <div className="footer_outer_container">
+      <div className="footer_inner_container">
+        <div className="footer_icons">
+          <a href="https://www.facebook.com/netflix" target="_blank">
+            {" "}
+            <FacebookOutlinedIcon />
+          </a>
+          <a href="https://www.instagram.com/netflix/" target="_blank">
+            <InstgramIcon />
+          </a>
+          <a href="https://www.youtube.com/netflix" target="_blank">
+            <YoutubeIcon />
+          </a>
         </div>
-        <div className='footer_data'>
-          <div>
-            <ul>
-              <li>Audio Description</li>
-              <li>Investor Relations</li>
-              <li>Legal Notice</li>
-            </ul>
+        <div className="footer_data">
+          <div className="colomn">
+            <div>
+              <ul>
+                <li>Audio Description</li>
+                <li>Investor Relations</li>
+                <li>Legal Notice</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Help Center</li>
+                <li>Jobs</li>
+                <li>Cookie Preferences</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li>Help Center</li>
-              <li>Jobs</li>
-              <li>Cookie Preferences</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Gift Card</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Media Center</li>
-              <li>Privacy</li>
-              <li>Contact Us</li>
-            </ul>
+          <div className='colomn'>
+            <div>
+              <ul>
+                <li>Gift Cards</li>
+                <li>Terms of Use</li>
+                <li>Corporate Information</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Media Center</li>
+                <li>Privacy</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div className='service_code'>
-          <p>
-            Service Code
-          </p>
-
+        <div className="service_code">
+          <p>Service Code</p>
         </div>
-        <div className='copy-write'>
-          &copy; 1997-2024 Netflix, Inc.
-
-        </div>
+        <div className="copy_write">&copy;1997-2024 Netflix,Inc.</div>
       </div>
-      
     </div>
+
+ 
   )
 }
 

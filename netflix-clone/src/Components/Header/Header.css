@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(20, 20, 20);
-/* background-color: transparent; */
+    /* background-color: rgb(20, 20, 20); */
+background-color: transparent;
 height: 10vh;
 color: white;
 transition: all 0.5s;
@@ -53,3 +53,22 @@ align-items: center;
   
 }
 
+.header_outer_container a
+ {
+    text-decoration: none;
+    color: white;
+}
+.header_left ul li:nth-child(2){
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .header_left ul li:not(:nth-child(2)) {
+      display: none;
+    }
+    .header_left ul li a {
+        display: flex;
+    }
+    .header_left ul li:nth-child(2),.header_left ul li:first-child{
+        display: block;
+    }
+  }
