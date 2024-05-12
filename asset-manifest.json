@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/https//tsionAkalu.github.io/Netflix-Clone-2024/static/css/main.42f12682.css",
-    "main.js": "/https//tsionAkalu.github.io/Netflix-Clone-2024/static/js/main.38218420.js",
-    "static/media/NetflixLogos.jpg": "/https//tsionAkalu.github.io/Netflix-Clone-2024/static/media/NetflixLogos.38ac76f74a4f56128a39.jpg",
-    "index.html": "/https//tsionAkalu.github.io/Netflix-Clone-2024/index.html",
-    "main.42f12682.css.map": "/https//tsionAkalu.github.io/Netflix-Clone-2024/static/css/main.42f12682.css.map",
-    "main.38218420.js.map": "/https//tsionAkalu.github.io/Netflix-Clone-2024/static/js/main.38218420.js.map"
+    "main.css": "/Netflix-Clone-2024/static/css/main.42f12682.css",
+    "main.js": "/Netflix-Clone-2024/static/js/main.99315a4b.js",
+    "static/media/NetflixLogos.jpg": "/Netflix-Clone-2024/static/media/NetflixLogos.38ac76f74a4f56128a39.jpg",
+    "index.html": "/Netflix-Clone-2024/index.html",
+    "main.42f12682.css.map": "/Netflix-Clone-2024/static/css/main.42f12682.css.map",
+    "main.99315a4b.js.map": "/Netflix-Clone-2024/static/js/main.99315a4b.js.map"
   },
   "entrypoints": [
     "static/css/main.42f12682.css",
-    "static/js/main.38218420.js"
+    "static/js/main.99315a4b.js"
   ]
 }
