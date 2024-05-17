@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import "./Header.css"
-import NetflixLogo from "../../Assets/images/NetflixLogos.jpg"
+import NetflixLogo from "../../Assets/images/NetflixLogo1.png"
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import NavSection from './Nav';
 
 
 const Header = () => {
@@ -20,20 +21,13 @@ const Header = () => {
   return (
     <>
     <div className={`header_outer_container ${show && "nav_black"}`}>
-    {/* <div className='header_outer_container'> */}
         <div className='header_container'>
+            <div className='browse'>
+                <NavSection />
+            </div>
             <div className="header_left">
                 <ul>
                     <li><img className='netflix-img' src={NetflixLogo} alt="NetflixLogo" width={"100"}/></li>
-                    <li>
-                        <a href='/browse'>
-                            <div className='browse'>Browse</div>
-                            <div className='browse'>
-                                <ArrowDropDownIcon />
-                            </div>
-                        </a>
-                        
-                    </li>
                     <li><a href='/home'>Home</a></li>
                     <li><a href='/tvshows'>TVShows</a></li>
                     <li><a href='/movies'>Movies</a></li>
@@ -54,17 +48,12 @@ const Header = () => {
  
                 </ul>
             </div>
-            {/* <div className="header_left">
-                <ul className='headerb'
-            </div> */}
-
         </div>
     </div>
      
  </>  
   )
 }
-
 
 export default Header
 
